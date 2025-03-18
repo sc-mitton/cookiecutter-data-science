@@ -1,0 +1,9 @@
+site_name: My Project Docs
+site_author: sc-mitton
+theme:
+  name: readthedocs
+
+plugins:
+  - search
+  - mkdocstrings:
+      default_handler: python
